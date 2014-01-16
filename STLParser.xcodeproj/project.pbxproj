@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F8E05018878A54006D3243 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8E04F18878A54006D3243 /* Cocoa.framework */; };
+		A1F8E05A18878A54006D3243 /* STLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8E05918878A54006D3243 /* STLParser.m */; };
+		A1F8E06118878A55006D3243 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8E06018878A55006D3243 /* XCTest.framework */; };
+		A1F8E06218878A55006D3243 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8E04F18878A54006D3243 /* Cocoa.framework */; };
+		A1F8E06518878A55006D3243 /* libSTLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F8E04C18878A54006D3243 /* libSTLParser.a */; };
+		A1F8E06B18878A55006D3243 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F8E06918878A55006D3243 /* InfoPlist.strings */; };
+		A1F8E06D18878A55006D3243 /* STLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8E06C18878A55006D3243 /* STLParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F8E06318878A55006D3243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F8E04418878A54006D3243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F8E04B18878A54006D3243;
+			remoteInfo = STLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F8E04C18878A54006D3243 /* libSTLParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTLParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F8E04F18878A54006D3243 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A1F8E05218878A54006D3243 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1F8E05318878A54006D3243 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1F8E05418878A54006D3243 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A1F8E05718878A54006D3243 /* STLParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STLParser-Prefix.pch"; sourceTree = "<group>"; };
+		A1F8E05818878A54006D3243 /* STLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLParser.h; sourceTree = "<group>"; };
+		A1F8E05918878A54006D3243 /* STLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLParser.m; sourceTree = "<group>"; };
+		A1F8E05F18878A55006D3243 /* STLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F8E06018878A55006D3243 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1F8E06818878A55006D3243 /* STLParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STLParserTests-Info.plist"; sourceTree = "<group>"; };
+		A1F8E06A18878A55006D3243 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1F8E06C18878A55006D3243 /* STLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F8E04918878A54006D3243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8E05018878A54006D3243 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8E05C18878A55006D3243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8E06218878A55006D3243 /* Cocoa.framework in Frameworks */,
+				A1F8E06518878A55006D3243 /* libSTLParser.a in Frameworks */,
+				A1F8E06118878A55006D3243 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F8E04318878A54006D3243 = {
+			isa = PBXGroup;
+			children = (
+				A1F8E05518878A54006D3243 /* STLParser */,
+				A1F8E06618878A55006D3243 /* STLParserTests */,
+				A1F8E04E18878A54006D3243 /* Frameworks */,
+				A1F8E04D18878A54006D3243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F8E04D18878A54006D3243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E04C18878A54006D3243 /* libSTLParser.a */,
+				A1F8E05F18878A55006D3243 /* STLParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F8E04E18878A54006D3243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E04F18878A54006D3243 /* Cocoa.framework */,
+				A1F8E06018878A55006D3243 /* XCTest.framework */,
+				A1F8E05118878A54006D3243 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F8E05118878A54006D3243 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E05218878A54006D3243 /* Foundation.framework */,
+				A1F8E05318878A54006D3243 /* CoreData.framework */,
+				A1F8E05418878A54006D3243 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A1F8E05518878A54006D3243 /* STLParser */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E05818878A54006D3243 /* STLParser.h */,
+				A1F8E05918878A54006D3243 /* STLParser.m */,
+				A1F8E05618878A54006D3243 /* Supporting Files */,
+			);
+			path = STLParser;
+			sourceTree = "<group>";
+		};
+		A1F8E05618878A54006D3243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E05718878A54006D3243 /* STLParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F8E06618878A55006D3243 /* STLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E06C18878A55006D3243 /* STLParserTests.m */,
+				A1F8E06718878A55006D3243 /* Supporting Files */,
+			);
+			path = STLParserTests;
+			sourceTree = "<group>";
+		};
+		A1F8E06718878A55006D3243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8E06818878A55006D3243 /* STLParserTests-Info.plist */,
+				A1F8E06918878A55006D3243 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1F8E04A18878A54006D3243 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1F8E04B18878A54006D3243 /* STLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8E07018878A55006D3243 /* Build configuration list for PBXNativeTarget "STLParser" */;
+			buildPhases = (
+				A1F8E04818878A54006D3243 /* Sources */,
+				A1F8E04918878A54006D3243 /* Frameworks */,
+				A1F8E04A18878A54006D3243 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STLParser;
+			productName = STLParser;
+			productReference = A1F8E04C18878A54006D3243 /* libSTLParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1F8E05E18878A55006D3243 /* STLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8E07318878A55006D3243 /* Build configuration list for PBXNativeTarget "STLParserTests" */;
+			buildPhases = (
+				A1F8E05B18878A55006D3243 /* Sources */,
+				A1F8E05C18878A55006D3243 /* Frameworks */,
+				A1F8E05D18878A55006D3243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F8E06418878A55006D3243 /* PBXTargetDependency */,
+			);
+			name = STLParserTests;
+			productName = STLParserTests;
+			productReference = A1F8E05F18878A55006D3243 /* STLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F8E04418878A54006D3243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = xadn;
+			};
+			buildConfigurationList = A1F8E04718878A54006D3243 /* Build configuration list for PBXProject "STLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1F8E04318878A54006D3243;
+			productRefGroup = A1F8E04D18878A54006D3243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F8E04B18878A54006D3243 /* STLParser */,
+				A1F8E05E18878A55006D3243 /* STLParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F8E05D18878A55006D3243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8E06B18878A55006D3243 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F8E04818878A54006D3243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8E05A18878A54006D3243 /* STLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F8E05B18878A55006D3243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F8E06D18878A55006D3243 /* STLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F8E06418878A55006D3243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F8E04B18878A54006D3243 /* STLParser */;
+			targetProxy = A1F8E06318878A55006D3243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F8E06918878A55006D3243 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F8E06A18878A55006D3243 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F8E06E18878A55006D3243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1F8E06F18878A55006D3243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1F8E07118878A55006D3243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLParser/STLParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F8E07218878A55006D3243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLParser/STLParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F8E07418878A55006D3243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLParser/STLParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STLParserTests/STLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1F8E07518878A55006D3243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STLParser/STLParser-Prefix.pch";
+				INFOPLIST_FILE = "STLParserTests/STLParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F8E04718878A54006D3243 /* Build configuration list for PBXProject "STLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8E06E18878A55006D3243 /* Debug */,
+				A1F8E06F18878A55006D3243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F8E07018878A55006D3243 /* Build configuration list for PBXNativeTarget "STLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8E07118878A55006D3243 /* Debug */,
+				A1F8E07218878A55006D3243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F8E07318878A55006D3243 /* Build configuration list for PBXNativeTarget "STLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F8E07418878A55006D3243 /* Debug */,
+				A1F8E07518878A55006D3243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F8E04418878A54006D3243 /* Project object */;
+}
